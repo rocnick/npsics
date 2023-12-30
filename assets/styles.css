@@ -1,0 +1,40 @@
+body {
+    background-color: #DDF2FF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+}
+h1 {
+    margin-bottom: 2px;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+h3 {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 1.45rem;
+    font-weight: normal;
+}
+.calendly {
+    min-width: 390px;
+}
+.calendly iframe {
+    min-height: 1032px;
+    max-width: 545px;
+}
+
+.label {
+    font-weight: bold;
+}
+sup {
+    color: #ffa5a5;
+}
+
+@media all AND (max-width: 1099px) {
+    body {
+        grid-template-columns: auto;
+    }
+}
